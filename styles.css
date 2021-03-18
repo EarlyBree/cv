@@ -48,6 +48,10 @@ h3 {
     color: #fff !important;
 }
 
+.nav-item:hover {
+    color: #eeebdd !important;
+}
+
 .title-image {
     width: 100%;
     margin-top: 10px;
