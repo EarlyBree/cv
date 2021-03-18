@@ -1,0 +1,115 @@
+#title {
+    background-color: #810000;
+    color: #fff;
+}
+body {
+    font-family: "Montserrat" !important;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.my_menu {
+    background-color: #810000;
+    color: #fff;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem !important;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-size: 1.5rem !important;
+}
+
+
+.navbar {
+    font-family: "Montserrat" !important;
+    background-color: #810000;
+    margin: 0px !important;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3rem !important;
+    font-weight: bold;
+    color: #fff !important;
+
+
+}
+
+.nav-item {
+    padding: 0 18px;
+    color: #fff !important;
+}
+
+.title-image {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 10%;
+
+}
+
+#views {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #810000;
+    color: #fff;
+}
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.hike-text {
+    font-family: "Ubuntu"
+}
+
+.icon {
+    padding: 7%;
+    color: #810000;
+}
+
+.icon:hover {
+    color: #630000;
+}
+
+.tspic {
+    width: 100%;
+    padding: 20px;
+
+}
+
+h2 {
+    font-family: "Ubuntu";
+    font-size: 80%;
+    padding: 10px 0 20px 0;
+}
+
+#views {
+    background-color: #810000;
+    text-align: center;
+    color: white;
+}
+
+.view-ca {
+    align: left;
+}
+
+.indies {
+    padding: 0px 0 50px 0;
+}
+
+#view-carousel {
+    width: 200%
+}
