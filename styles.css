@@ -117,3 +117,11 @@ h2 {
 #view-carousel {
     width: 200%
 }
+
+.turnaround {
+    transform: rotate(0deg);
+}
+
+.turnaround2 {
+    transform: rotate(180deg);
+}
