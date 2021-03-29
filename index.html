@@ -12,7 +12,9 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/d5bae4c5bd.js" crossorigin="anonymous"></script>
-
+  <script src="https://unpkg.com/vue@next" defer></script>
+  <script src="app.js" defer></script>
+  
 </head>
 <body>
 <section id="title">
@@ -48,22 +50,22 @@
   </section>
 
   <section id="features">
-      <div class="row">
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-mountain fa-4x"></i>
-          <h3>Hernlersteig</h3>
-          <p class="hike-text">Startet direkt am Traunsee</p>
-        </div>
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-crow fa-4x"></i>
-          <h3>Naturfreundsteig</h3>
-          <p class="hike-text">Verläuft über den Westgrat</p>
-        </div>
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-hiking fa-4x"></i>
-          <h3>Mairalmsteig</h3>
-          <p class="hike-text">Über die Südseite</p>
-        </div>
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-mountain fa-4x" :class="firstrotate" @click="firstclick"></i>
+        <h3>Hernlersteig</h3>
+        <p :class="selectClass" @click="bclick">Startet direkt am Traunsee</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-crow fa-4x" :class="secondrotate" @click="secondclick"></i>
+        <h3>Naturfreundsteig</h3>
+        <p :class="selectClass" @click="bclick">Verläuft über den Westgrat</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-hiking fa-4x" :class="thirdrotate" @click="thirdclick"></i>
+        <h3>Mairalmsteig</h3>
+        <p :class="selectClass" @click="bclick">Über die Südseite</p>
+      </div>
     </div>
   </section>
 <section id="views">
