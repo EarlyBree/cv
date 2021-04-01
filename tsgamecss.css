@@ -1,0 +1,75 @@
+
+
+.title-image {
+    width: 500px;
+    height: 689px;
+    height: auto; 
+    position: absolute; 
+    left: 100px;
+    top: 22px;
+}
+
+
+.progress {
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #575757;
+    background: #fde5e5;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 200px;
+    left: -100px;
+  }
+  
+.progress_value {
+    background-color: #040e0b;
+    width: 100%;
+    height: 100%;
+  }
+
+.progress1 {
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #575757;
+    background: #fde5e5;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 200px;
+    left: 450px;
+  }
+  
+.progress_value1 {
+    background-color: #040e0b;
+    width: 100%;
+    height: 100%;
+  }
+  
+ body {
+     background-color: #810000;
+ } 
+
+.buttondiv {
+    position: absolute;
+    top: 420px;
+    left: 280px;
+}
+
+ul {
+    position: absolute;
+    top: 450px;
+    left: 280px;
+}
+
+#hippo {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+
+#hiker {
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}

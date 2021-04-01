@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Das Traunstein Spiel</title>
+    <link rel="stylesheet" href="tsgamecss.css" />
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="appgame.js" defer></script>
+    <script src="https://kit.fontawesome.com/d5bae4c5bd.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section id="game">
+        <div>
+            <div class="progress">
+                <div class="progress_value" :style="playerClimbStyle"></div>
+            </div>
+            <img class="title-image" src="traunstein_ks.jpg" alt="traunstein">
+            <div class="progress1">
+                <div class="progress_value1" :style="hippoClimbStyle"></div>
+            </div>
+        </div>
+        <div class="buttondiv">
+            <button :disabled="winner" @click="playerClimb">climb</button>
+            <button :disabled="mayUseJump" :disabled="winner" @click="playerJump">jump</button>
+            <button @click="startGame">reset</button>
+        </div>
+        <ul>
+            <li v-for="logs in logMessages">{{logs}}</li>
+        </ul>
+        <i class="fas fa-hippo fa-4x" id="hippo"></i>
+        <i class="icon fas fa-hiking fa-4x" id="hiker"></i>
+    </section>
+</body>
+
+</html>
