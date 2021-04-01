@@ -57,7 +57,9 @@ const app = Vue.createApp({
             return { width: this.hippoDistance + "%" };
         },
         mayUseJump() {
-            return this.currendRound % 3 !== 0;
+            if (this.winner === true) {
+                return true; }
+            else { return this.currendRound % 3 !== 0; }
         }
 
     },
