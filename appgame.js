@@ -66,7 +66,6 @@ const app = Vue.createApp({
     watch: {
         playerDistance(value) {
             if (value >= 100 && this.hippoDistance >= 100) {
-                this.logMessages.unshift("It´s a draw")
                 this.winner = true;
             } else if (value >= 100) {
                 this.logMessages.unshift("Player wins")
