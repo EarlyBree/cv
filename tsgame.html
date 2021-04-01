@@ -24,7 +24,7 @@
         </div>
         <div class="buttondiv">
             <button :disabled="winner" @click="playerClimb">climb</button>
-            <button :disabled="mayUseJump" :disabled="winner" @click="playerJump">jump</button>
+            <button :disabled="mayUseJump" @click="playerJump">jump</button>
             <button @click="startGame">reset</button>
         </div>
         <ul>
